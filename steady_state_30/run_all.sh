@@ -1,6 +1,0 @@
-trial=(1 2 3 4 5 6 7 8 9 10 );
-
-      for t in "${trial[@]}"
-      do
-         nohup python mass_spring_large.py -s $t 2>&1 > seedS$t.out &
-      done
